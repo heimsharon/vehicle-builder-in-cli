@@ -1,11 +1,10 @@
-// This file builds the Motorbike class
+// This file builds the Motorbike class with parent class: Vehicle
 
 import Vehicle from './Vehicle.js';
 import Wheel from './Wheel.js';
 
 // Motorbike class that extends Vehicle class
 class Motorbike extends Vehicle {
-
   //  Declares properties of the Motorbike class  
   vin: string;
   color: string;
@@ -17,7 +16,6 @@ class Motorbike extends Vehicle {
   wheels: Wheel[];
 
   // Constructor for Motorbike class
-
   constructor(
     vin: string,
     color: string,
@@ -30,8 +28,7 @@ class Motorbike extends Vehicle {
   )
 
   // Calling the constructor of the parent class: Vehicle
-  {
-    super();
+  { super();
 
     // Initializes properties of the Motorbike class
     this.vin = vin;

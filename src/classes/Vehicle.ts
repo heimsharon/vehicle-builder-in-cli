@@ -4,7 +4,6 @@ import Driveable from '../interfaces/Driveable.js';
 
 // Vehicle class that implements Driveable interface
 class Vehicle implements Driveable {
-
   // Declares properties of the Vehicle class
   started: boolean;
   currentSpeed: number;

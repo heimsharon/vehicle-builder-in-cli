@@ -1,4 +1,4 @@
-// This file builds the Car class that has a parent class: Vehicle
+// This file builds the Car class, with parent class: Vehicle
 
 import Vehicle from './Vehicle.js';
 import Wheel from './Wheel.js';
@@ -28,8 +28,7 @@ class Car extends Vehicle {
   )
 
   // Calling the constructor of the parent class: Vehicle
-  {
-    super();
+  { super();
 
     // Initializes properties of the Car class
     this.vin = vin;

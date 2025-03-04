@@ -1,4 +1,4 @@
-// This file builds the Truck class
+// This file builds the Truck class with parent class: Vehicle
 
 import Vehicle from './Vehicle.js';
 import Motorbike from './Motorbike.js';
@@ -31,8 +31,9 @@ class Truck extends Vehicle implements AbleToTow {
     wheels: Wheel[],
     towingCapacity: number
   ) 
-  { // Calling the constructor of the parent class: Vehicle
-    super();
+
+  // Calling the constructor of the parent class: Vehicle
+  { super();
 
     // Initializes properties of the Truck class
     this.vin = vin;
@@ -92,7 +93,8 @@ class Truck extends Vehicle implements AbleToTow {
     if (vehicle.weight <= this.towingCapacity) {
       // If it is, log that the vehicle is being towed
       console.log(`Towing ${make} ${model} with VIN: ${vehicle.vin}`);
-    } else {
+    } 
+    else {
       // If it is not, log that the vehicle is too heavy to be towed
       console.log(`The ${make} ${model} is too heavy to be towed`);
     }
