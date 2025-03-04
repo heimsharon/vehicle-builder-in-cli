@@ -71,4 +71,4 @@ This project is licensed under the MIT license.
 
 ### Video
 
-[Watch the application in action](https://drive.google.com/file/d/1Uhj_KDlO9AlU-jyA5iuRQq3wCCBoiRhS/view?usp=sharing)
+[Watch the application in action](https://drive.google.com/file/d/1P2NRZVgAKLpoP0xVxZNU_ULT6_Km1Bsz/view?usp=sharing)
